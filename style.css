@@ -1,0 +1,280 @@
+
+body{
+	font-family: 'Oswald', sans-serif;
+	color: #30343F;
+}
+
+h5 {
+	margin: 0 0 0 0;
+}
+
+.bg-light{
+	background-color: white!important;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+	color: #080705;
+	transition: all ease 300ms;
+}
+
+.navbar-nav {
+	padding: 20px;
+	font-family: 'Oswald', sans-serif;
+	margin-right: 0;
+	text-align: right;
+	justify-content: right;
+	color: #080705;
+	transition: all ease 300ms;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.collapse navbar-collapse {
+	justify-content: right;
+	text-align: right;
+	align-content: right;
+}
+
+#navbarNavDropdown {
+	justify-content: right;
+	text-align: right;
+	align-content: right;
+}
+
+.dropdown-menu {
+	border: 1px solid rgba(0,0,0,.01);
+	transition: all ease 300ms;
+}
+
+.dropdown-menu:show {
+	transition: all ease 300ms;
+}
+
+.dropdown-item {
+	color: #080705;
+	font-size: 17px;
+	transition: all ease 300ms;
+	cursor: pointer;
+}
+
+.dropdown-item:active {
+	color: white;
+	background-color: #473F27; 
+}
+
+.nav-item nav-item {
+	display: inline;
+	text-align: right;
+}
+
+
+.carousel-caption d-none d-md-block {
+	color: #393232!important;
+}
+
+.button {
+	background-color: #473F27;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.button:hover {
+	color: white;	
+  background: #241A14;
+  text-decoration: none;
+}
+
+.button-block {
+  display: block;
+  text-align: center;
+  margin-top: 0px;
+  transition: all ease 300ms;
+}
+
+.row {
+	display: flex;
+	justify-content: center;
+}
+
+#contact {
+	background-color: #F4F2E3;
+}
+
+.collection, .type {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.category {
+	background-size: cover;
+	box-sizing: border-box;
+}
+
+.category-content {
+	display: block;
+	padding: 15px;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	background-color: #F4F2E3;
+	transition: all ease 300ms;
+}
+
+.category-content:hover {
+	background-color: #473F27;
+	color: white;
+}
+
+.category-content:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    }
+
+#info {
+	background-color: #F4F2E3;
+}
+
+.info-content {
+	display: block;
+	height: 100%;
+	background-color: #F4F2E3;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-right: 80px;
+	padding-left: 80px;
+	text-align: center;
+	justify-content: center;
+	vertical-align: middle;
+}
+
+.btn-outline-dark:hover {
+	background-color: #473F27;
+	color: white;
+}
+
+.modal-content {
+	padding: 20px;
+}
+
+#wufooFormr1glluge19wqpfd {
+
+}
+
+.newsletter {
+	margin-top: 50px;
+	margin-bottom: 30px;
+	justify-content: center;
+}
+
+#newsletter-title {
+	margin-right: 50px;
+}
+
+#mce-EMAIL {
+	margin-right: 50px;
+}
+
+#mc-embedded-subscribe {
+	border-radius: .25rem;
+	font-size: 15px;
+	padding: .375rem .75rem;
+	transition : all ease 300ms;
+}
+
+#mc-embedded-subscribe:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    }
+
+.clear {
+	justify-content: center;
+}
+
+.footer {
+	display: flex;
+	background-color: #473F27;
+	color: white;
+	font-size: 30px;
+	padding-left: 10px;
+}
+
+
+.social-media {
+	line-height: 0;
+	display: inline-flex;
+	flex-direction: row;
+	text-decoration: none;
+	list-style: none;
+	color: white;
+	padding: 30px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.footer {
+	margin-top: 50px;
+	margin-bottom: 0;
+  display: flex;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.footer div {
+  padding: 30px 30px 30px 30px;
+  text-align: left;
+}
+
+.footer .copyright {
+  flex: 1;
+  flex-basis: 50%;
+  text-align: right;
+  padding-right: 50px;
+  padding-top: 40px;
+  vertical-align: center;
+}
+
+.twitter {
+    flex-basis: 5%;
+}
+
+.facebook {
+  flex-basis: 5%;
+}
+
+.instagram {
+  flex-basis: 5%;
+}
+
+.pinterest {
+  flex-basis: 5%;
+}
+
+@media (max-width: 768px) {
+  .footer .copyright {
+    flex-basis: 100%;
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .twitter .facebook, .instagram, .pinterest {
+    flex-basis: 15%;
+  }
+}
+
+.picto {
+	text-decoration: none;
+	color: white;
+	transition: all ease 300ms;
+	padding-left: 30px;
+}
+
+.picto:hover {
+	color: #F4F2E3;
+}
+
+.copyright {
+	font-size: 15px;
+	text-align: right;
+	align-content: center;
+	vertical-align: center;
+}
